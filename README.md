@@ -17,7 +17,7 @@ A simple HTTP server written in x86_64 assembly language for Linux. This project
 
 ## Building
 1. Install NASM and ld
-2. Assemble with: `nasm -f elf64 server.asm -o server.o`
+2. Assemble with: `nasm -f elf64 http.s -o server.o`
 3. Link with: `ld server.o -o server`
 
 ## Running
